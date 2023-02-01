@@ -21,7 +21,7 @@ public class userController {
             return new ResponseDto<>(-1, "username 전달 바람", null);
         }
 
-        if (username.equals("cos")) {
+        if (username.equals("ssar")) {
             return new ResponseDto<>(1, "동일한 username 존재", false);
         } else {
             return new ResponseDto<>(1, "username 사용 가능", true);
